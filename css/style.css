@@ -1,3 +1,40 @@
 html {
     background-color: orangered;
+    margin-top: -7px;
 }
+
+.navBar {
+    border: 1px solid orangered;
+    background-color: antiquewhite;
+}
+
+ul {}
+
+ul li {
+    display: inline-block;
+    padding: 15px;
+    background-color: orange;
+    height: 20px;
+    width: 90px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+:visited {
+    color: black;
+}
+
+.hero-text {
+    font-size: 4em;
+}
+
+
+/*
+:hover {
+    color: yellow;
+}
+*/
