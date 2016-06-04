@@ -1,6 +1,15 @@
 html {
     background-color: orangered;
     margin-top: -7px;
+    font-family: 'Myriad Set Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+    /*    font-family: sans-serif;
+    */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.45;
 }
 
 .navBar {
@@ -37,8 +46,18 @@ ul li a {
     text-decoration: none;
 }
 
+a:link {
+    color: black
+}
+
 :visited {
     color: black;
+}
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
 }
 
 .hero-text {
@@ -46,6 +65,7 @@ ul li a {
     font-weight: 400;
     text-align: center;
     margin-top: 60px;
+    vertical-align: middle;
 }
 
 
@@ -54,3 +74,7 @@ ul li a {
     color: yellow;
 }
 */
+
+footer {
+    text-align: center;
+}
