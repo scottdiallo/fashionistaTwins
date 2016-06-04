@@ -5,19 +5,32 @@ html {
 
 .navBar {
     border: 1px solid orangered;
-    background-color: antiquewhite;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    background-origin: content-box;
+    z-index: 9999;
+    height: 50px;
+    width: 100%
 }
 
-ul {}
+ul {
+    text-align: center;
+}
 
 ul li {
     display: inline-block;
     padding: 15px;
+    margin: 1px;
     background-color: orange;
-    height: 20px;
-    width: 90px;
+    height: 30px;
+    width: 110px;
     text-align: center;
     border-radius: 10px;
+    font-size: 1.5em;
+    font-weight: 400;
+    color: white;
 }
 
 ul li a {
@@ -30,6 +43,9 @@ ul li a {
 
 .hero-text {
     font-size: 4em;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 60px;
 }
 
 
