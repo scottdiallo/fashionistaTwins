@@ -28,7 +28,7 @@ ul {
     text-align: center;
 }
 
-ul li {
+nav ul li {
     display: inline-block;
     padding: 15px;
     margin: 1px;
@@ -74,6 +74,42 @@ a:active {
     color: yellow;
 }
 */
+
+
+/* Styling  for Carousel */
+
+.container-carousel {
+    overflow: hidden;
+}
+
+#slider {
+    width: 720px;
+    height: 400px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+#slider .slides {
+    display: block;
+    width: 6000px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+#slider .slide {
+    float: left;
+    list-style-type: none;
+    width: 1200px;
+    height: 400px;
+}
+
+.carousel-header {
+    text-align: center;
+    font-weight: 300;
+    font-size: 65px;
+    font-family: cursive
+}
 
 footer {
     text-align: center;
