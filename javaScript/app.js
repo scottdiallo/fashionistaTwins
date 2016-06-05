@@ -7,7 +7,7 @@ $('document').ready(function () {
                                   Carousel / image slider
       -------------------------------------------------------------------------------*/
     //settings for slider
-    var width = 1200;
+    var width = 1250;
     var animationSpeed = 500;
     var pause = 2500;
     var currentSlide = 1;
