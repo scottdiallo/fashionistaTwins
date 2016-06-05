@@ -1,6 +1,7 @@
 html {
     background-color: orangered;
-    margin-top: -7px;
+    margin: -9px -40px -9px -9px;
+    margin-right: -12px;
     font-family: 'Myriad Set Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -19,8 +20,7 @@ body {
     background-size: cover;
     background-position: center;
     background-origin: content-box;
-    z-index: 9999;
-    height: 50px;
+    max-height: 50px;
     width: 100%
 }
 
@@ -64,7 +64,7 @@ a:active {
     font-size: 4em;
     font-weight: 400;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 20px;
     vertical-align: middle;
 }
 
@@ -80,11 +80,12 @@ a:active {
 
 .container-carousel {
     overflow: hidden;
+    margin-top: 90px;
 }
 
 #slider {
-    width: 720px;
-    height: 400px;
+    width: 1200px;
+    height: 590px;
     overflow: hidden;
     margin: 0 auto;
 }
@@ -92,7 +93,7 @@ a:active {
 #slider .slides {
     display: block;
     width: 6000px;
-    height: 400px;
+    height: 100px;
     margin: 0;
     padding: 0;
 }
@@ -100,17 +101,9 @@ a:active {
 #slider .slide {
     float: left;
     list-style-type: none;
-    width: 1200px;
-    height: 400px;
-}
-
-.carousel-header {
-    text-align: center;
-    font-weight: 300;
-    font-size: 65px;
-    font-family: cursive
 }
 
 footer {
     text-align: center;
+    margin-top: 40px;
 }
