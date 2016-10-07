@@ -2,7 +2,7 @@ html {
     background-color: #FF0000;
     margin: -9px -40px -9px -9px;
     margin-right: -12px;
-    font-family: 'Myriad Set Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 body {
@@ -69,13 +69,6 @@ a:active {
 }
 
 
-/*
-:hover {
-    color: yellow;
-}
-*/
-
-
 /* Styling  for Carousel */
 
 .container-carousel {
@@ -116,6 +109,35 @@ ul li {
 .followUs {
     text-align: center;
     padding-top: 30px;
+}
+
+.videoContent-1,
+.videoContent-2 {
+    text-align: center;
+}
+
+
+/*styling for the tutorials page*/
+
+h4 {
+    font-size: 2.3em;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-align: center;
+}
+
+#allBlogPost {
+    padding-top: 50px;
+    width: 650px;
+    padding-left: 25px;
+    letter-spacing: 1.2px;
+    line-height: 35px;
+    margin: 0 auto;
+}
+
+.postDate {
+    margin: 0 auto;
+    color: #fff;
+    font-size: 10px
 }
 
 
