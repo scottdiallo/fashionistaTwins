@@ -19,6 +19,20 @@
 </nav>
 
 <body>
+
+    <div id="fb-root"></div>
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+
     <div class="videoContent-1">
         <h4>Sample video 1</h4>
 
@@ -27,9 +41,9 @@
             <source src="/videos/AppleNewHire.mov" type="video/mp4">
             <source src="/videos/AppleNewHire.mov" type="video/ogg">
         </video>
+        <div class="fb-like" data-href="https://scottdiallo.github.io/fashionistaTwins" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
 
     </div>
-
 
     <div class="videoContent-2">
         <h4>Sample video 2</h4>
@@ -40,7 +54,9 @@
             <embed src="http://www.youtube.com/v/F9Bo89m2f6g&hl=en&fs=1" type="application/x-shockwave-flash" allowfullscreen="true" width="425" height="344">
             </embed>
         </object>
+        <div class="fb-like" data-href="https://scottdiallo.github.io/fashionistaTwins" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
     </div>
+
 
 
 
