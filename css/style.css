@@ -172,6 +172,10 @@ div > h2 {
     margin: 0 auto;
 }
 
+.post-1Header {
+    font-size: 1.3em;
+}
+
 .postDate {
     margin: 0 auto;
     color: #fff;
@@ -207,6 +211,13 @@ div > h2 {
     div > h2 {
         font-size: 1.2em;
     }
+    .post-1Header,
+    .post-2Header {
+        font-size: 1.5em;
+    }
+    #allBlogPost {
+        width: 85%;
+    }
 }
 
 
@@ -215,6 +226,18 @@ div > h2 {
 @media only screen and (max-width: 480px) {
     nav ul li {
         font-size: 1em;
+    }
+    .post-1Header,
+    .post-2Header {
+        font-size: 1.3em;
+        text-align: center;
+        font-weight: bold;
+    }
+    #allBlogPost {
+        width: 80%;
+    }
+    .fb-like {
+        margin: auto;
     }
 }
 
